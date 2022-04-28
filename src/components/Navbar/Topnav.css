@@ -1,0 +1,34 @@
+.list {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.brand {
+    font-size: 25px!important;
+    font-weight: 600;
+}
+
+.link {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.link::after {
+    content:'';
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: #F0D9AE;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+
+.link:hover::after {
+    transform: scaleX(1);
+}
