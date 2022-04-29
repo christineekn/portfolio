@@ -14,6 +14,7 @@
 
 .i-right {
     flex: 1;
+    position: relative;
 }
 
 .i-left-wrapper {
@@ -95,8 +96,10 @@
     width: 50%;
     height: 50%;
     object-fit: contain;
-    margin: auto;
-    margin-top: 12rem;
+    position: absolute;
+    /* margin: auto; */
+    top: 14rem;
+    left: 10rem;
     display: block;
 
     animation: transitionIn 1.5s ;
@@ -113,3 +116,25 @@
     }
 }
 
+
+/* Responsive */
+
+/* Mobile */
+@media screen and (max-width : 480px) {
+    .i {
+        flex-direction: column;
+    }
+
+    .i-left-wrapper {
+        margin-top: 15rem;
+        height: 100%;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .i-img {
+        display: none;
+    }
+}
