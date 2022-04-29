@@ -1,19 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import Intro from './components/intro/Intro';
-import Topnav from './components/Navbar/Topnav';
-import Description from './components/desciption/Description';
+import Intro from "./components/intro/Intro";
+import Topnav from "./components/Navbar/Topnav";
+import About from "./components/about/About";
 
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div>
       <Topnav/>
-      <Intro/>
-      <Description/>
+      <Intro />
+      <About />
     </div>
   );
 }
