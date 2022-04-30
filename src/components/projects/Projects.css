@@ -1,16 +1,32 @@
-.a-desc {
-    display: flex;
+.p {
+    /* display: flex; */
     height: 80vh;
     margin-top: -3rem;
 }
 
-.a-wrapper {
+.p-wrapper {
     padding: 130px;
     height: 100%;
-    width: 58%;
+    /* width: 58%; */
 }
 
-.a-projects-title {
+.p-projects-title {
     font-weight: 300;
     color: rgba(97, 65, 36, 0.3);
+}
+
+.p-projects-list {
+    
+    width: 100%;
+    display: grid;
+}
+
+.p-card {
+    margin: 20px;
+    padding: 10px;
+}
+
+.p-card-title {
+    font-size: 24px;
+    font-weight: bold;
 }

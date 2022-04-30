@@ -5,11 +5,11 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="i-desc">
-      <div className="i-desc-left">
-        <div className="i-desc-left-wrapper">
-          <h1 className="i-bio-title">ABOUT ME</h1>
-          <h3 className="i-bio-short">
+    <div className="a-desc">
+      <div className="a-desc-left">
+        <div className="a-desc-left-wrapper">
+          <h1 className="a-bio-title">ABOUT ME</h1>
+          <h3 className="a-bio-short">
             I like to turn interesting ideas into mochups with a passion for
             minimalistic and user-friendly interfaces. My goal is to learn
             through everyday challenges and develop my skills.
@@ -19,7 +19,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="i-desc-right"></div>
+      <div className="a-desc-right"></div>
     </div>
   );
 };

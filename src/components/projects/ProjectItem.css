@@ -1,0 +1,55 @@
+
+.pi {
+    /* width: 50%; */
+    /* height: 30%; */
+    display: flex;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.pi-left {
+    flex:.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:grey;
+}
+
+.pi-left-wrapper {
+    padding: 5px;
+}
+
+.pi-right {
+    flex:2;
+}
+
+.pi-right-content {
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+    gap: 10px;
+}
+
+.pi-content-title{
+    grid-area: a;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.pi-content-desc{
+    grid-area: b;
+    /* width: 80%; */
+    font-size: 18px;
+}
+
+.pi-content-btn{
+    grid-area: c;
+    font-size: 16px;
+    justify-self: end;
+}
+
