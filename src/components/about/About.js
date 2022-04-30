@@ -19,7 +19,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="a-desc-right"></div>
+     
     </div>
   );
 };

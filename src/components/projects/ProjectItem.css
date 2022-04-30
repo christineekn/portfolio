@@ -63,3 +63,16 @@
     /* justify-self: end; */
 }
 
+/* Responsive */
+
+/* Mobile */
+@media screen and (max-width : 480px) {
+    .pi {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pi-right {
+        display:none;
+    }
+}

@@ -9,3 +9,12 @@
   color: #3a3a3a!important;
 }
 
+/* Responsive */
+
+/* Mobile */
+@media screen and (max-width : 480px) {
+  .t {
+    display: none;
+  }
+}
+

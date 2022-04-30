@@ -37,3 +37,26 @@
     font-weight: 600;
     opacity: 30%;
 }
+
+/* Responsive */
+
+/* Mobile */
+@media screen and (max-width : 480px) {
+    .p-wrapper {
+        padding: 10px;
+    }
+
+    .p-projects-title {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .p-card-title {
+        text-align: center;
+    }
+
+    .c-soon {
+        font-size: 20px;
+    }
+    
+}

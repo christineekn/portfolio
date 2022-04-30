@@ -68,7 +68,7 @@
 .i-title-item {
     height: 50px;
     font-size: 30px;
-    font-weight: 400; 
+    font-weight: 300; 
     color: #A97155;
 }
 
@@ -100,7 +100,6 @@
     /* margin: auto; */
     top: 14rem;
     left: 15rem;
-    display: block;
 
     animation: transitionIn 1.5s ;
 }
@@ -123,18 +122,35 @@
 @media screen and (max-width : 480px) {
     .i {
         flex-direction: column;
+        height: 100%;
+        margin-top: 5rem;
     }
 
     .i-left-wrapper {
-        margin-top: 15rem;
-        height: 100%;
-        padding: 5px;
-        justify-content: center;
+        padding: 10px;
         align-items: center;
+        justify-content: center;
         text-align: center;
+        height: 100%;
     }
 
-    .i-img {
+    .i-intro, .i-intro-2{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .i-name {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .i-right {
         display: none;
     }
+    
+
+    .i-scroll {
+        display: none;
+    }
+
 }
