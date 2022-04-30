@@ -1,6 +1,8 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 
+import projectUI from "../../data";
+
 import "./Projects.css";
 
 const Projects = () => {
@@ -11,22 +13,17 @@ const Projects = () => {
         <div className="p-projects-list">
           <div className="p-card">
             <h1 className="p-card-title">UI/UX Design</h1>
-            <ProjectItem/>
-            <ProjectItem/>
-            <ProjectItem/>
-            
+            {projectUI.map((item) => (
+              <ProjectItem key={item.id} img={item.img} link={item.link} title={item.title} desc={item.desc} />
+            ))}
           </div>
           <div className="p-card">
             <h1 className="p-card-title">WEB APPLICATIONS</h1>
-            <ProjectItem/>
-            <ProjectItem/>
-            <ProjectItem/>
+            <h1 className="c-soon">Coming Soon</h1>
           </div>
           <div className="p-card">
             <h1 className="p-card-title">ILLUSTRATIONS</h1>
-            <ProjectItem/>
-            <ProjectItem/>
-            <ProjectItem/>
+            <h1 className="c-soon">Coming Soon</h1>
           </div>
         </div>
       </div>

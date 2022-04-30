@@ -30,9 +30,10 @@
 }
 
 .a-bio-short {
+    width: 90%;
     font-size: 23px;
-    letter-spacing: .1rem;
-    font-weight: 400;
+    /* letter-spacing: .1rem; */
+    font-weight: 300;
     margin-top: 3rem;
     margin-bottom: 3rem;
     line-height: 30pt;

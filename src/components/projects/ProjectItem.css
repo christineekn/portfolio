@@ -3,8 +3,11 @@
     /* width: 50%; */
     /* height: 30%; */
     display: flex;
-    padding: 5px;
+    padding: 10px;
     margin: 5px 0px;
+    overflow: hidden;
+    /* border: 2px solid black; */
+    border-radius: 10px;
 }
 
 .pi-left {
@@ -16,15 +19,12 @@
     /* background-color:grey; */
 }
 
-.pi-left-wrapper {
-    
-}
 
 .pa-project-img {
     width: 180px;
     height: 180px;
     border: 2px solid rgba(255,255,255,0);
-    border-radius: 3%;
+    border-radius: 10px;
     object-fit: cover;
 }
 
@@ -47,18 +47,19 @@
 .pi-content-title{
     grid-area: a;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .pi-content-desc{
     grid-area: b;
     /* width: 80%; */
     font-size: 18px;
+    font-weight: 300;
 }
 
 .pi-content-btn{
     grid-area: c;
     font-size: 16px;
-    justify-self: end;
+    /* justify-self: end; */
 }
 
