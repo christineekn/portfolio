@@ -1,0 +1,16 @@
+.a-desc {
+    display: flex;
+    height: 80vh;
+    margin-top: -3rem;
+}
+
+.a-wrapper {
+    padding: 130px;
+    height: 100%;
+    width: 58%;
+}
+
+.a-projects-title {
+    font-weight: 300;
+    color: rgba(97, 65, 36, 0.3);
+}

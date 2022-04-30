@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 
 import "./About.css";
 
@@ -13,8 +14,12 @@ const About = () => {
             minimalistic and user-friendly interfaces. My goal is to learn
             through everyday challenges and develop my skills.
           </h3>
+          <div className="cv-btn">
+            <Button variant="outline-dark">download CV</Button>
+          </div>
         </div>
       </div>
+      <div className="i-desc-right"></div>
     </div>
   );
 };
