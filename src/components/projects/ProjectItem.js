@@ -9,7 +9,7 @@ const ProjectItem = ({img, link, title, desc}) => {
     <div className="pi">
       <div className="pi-left">
         <div className="pi-left-wrapper">
-            <img src={img} alt="this is my first app" className="pa-project-img" />
+            <a href={link} ><img src={img} alt="this is my first app" className="pa-project-img" /></a>
         </div>
       </div>
       <div className="pi-right">
