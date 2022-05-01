@@ -9,7 +9,7 @@ const ProjectItem = ({ img, link, title, desc }) => {
       <div className="pi-left">
         <div className="pi-left-wrapper">
           <div className="pi-card">
-            <a href={link}>
+            <a href={link} rel="noreferrer" target="_blank">
               <img
                 src={img}
                 alt="this is my first app"
