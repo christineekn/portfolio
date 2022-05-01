@@ -16,17 +16,40 @@
     justify-content: center;
     align-items: center;
     
-    /* background-color:grey; */
 }
 
+.pi-card {
+    width: 200px;
+    height: 200px;
+    background-color: #333;
+    border-radius: 10px;
+    outline: 2px solid rgba(255,255,255,1);
+    outline-offset: -8px;
+    position: relative;
+    overflow: hidden;
+}
 
-.pa-project-img {
-    width: 180px;
+.pi-project-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .9;
+    transition: transform .75s;
+
+    /* width: 180px;
     height: 180px;
     border: 2px solid rgba(255,255,255,0);
     border-radius: 10px;
-    object-fit: cover;
+    object-fit: cover; */
 }
+
+.pi-card:hover .pi-project-img {
+    transform: scale(1.15);
+}
+
+
 
 .pi-right {
     flex:2;

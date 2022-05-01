@@ -15,7 +15,7 @@ const About = () => {
             through everyday challenges and develop my skills.
           </h3>
           <div className="cv-btn">
-            <Button variant="outline-dark" target="_blank" size="lg" href="https://drive.google.com/file/d/1SbIm5shRJCQ1gBWkhGrRUriUU3-Eur72/view?usp=sharing">download CV</Button>
+             <Button variant="outline-dark" target="_blank" size="lg" href="https://drive.google.com/file/d/1SbIm5shRJCQ1gBWkhGrRUriUU3-Eur72/view?usp=sharing" >resume</Button>
           </div>
         </div>
       </div>
