@@ -1,20 +1,22 @@
-.list {
-  list-style-type: none;
-  text-align: center;
+.t {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  /* max-width: 1240px; */
+  width: 100vw;
+  margin: auto;
+}
+
+.me-auto {
+  /* margin-left:auto!important; */
 }
 
 .brand {
   font-size: 25px !important;
-  font-weight: 700;
-  color: #3a3a3a!important;
+  font-weight: 500;
 }
 
-/* Responsive */
 
-/* Mobile */
-@media screen and (max-width : 480px) {
-  .t {
-    display: none;
-  }
-}
+
 
