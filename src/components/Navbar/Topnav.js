@@ -51,7 +51,7 @@ const Topnav = () => {
           <Navbar.Brand href="#home" className="brand">
             Christine Koniou.
           </Navbar.Brand>
-          <Nav className="list d-xs-none">
+          <Nav className="list">
             <Nav.Link className="p-2" target="_blank" href="https://www.behance.net/christinekon">
               <BsBehance size={20}/>
             </Nav.Link>

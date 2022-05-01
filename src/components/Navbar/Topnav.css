@@ -9,13 +9,22 @@
   margin: auto;
 }
 
-.me-auto {
-  /* margin-left:auto!important; */
+.navbar-nav {
+  flex-direction: row!important;
 }
+
 
 .brand {
   font-size: 25px !important;
   font-weight: 600;
+}
+
+@media screen and (max-width : 480px) {
+  
+  /* .navbar-nav {
+    flex-direction: row;
+  } */
+
 }
 
 
