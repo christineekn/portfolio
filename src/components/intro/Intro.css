@@ -122,7 +122,7 @@
 @media screen and (max-width : 480px) {
     .i {
         flex-direction: column;
-        height: 50vh;
+        height: 60vh;
         /* margin-top: 5rem; */
         margin-left: -10rem;
     }
