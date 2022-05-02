@@ -10,7 +10,7 @@ const About = () => {
         <div className="a-desc-left-wrapper">
           <h1 className="a-bio-title">ABOUT ME</h1>
           <h3 className="a-bio-short">
-            I like to turn interesting ideas into mochups with a passion for
+            I like to turn interesting ideas into mockups with a passion for
             minimalistic and user-friendly interfaces. My goal is to learn
             through everyday challenges and develop my skills.
           </h3>
