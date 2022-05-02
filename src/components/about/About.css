@@ -42,30 +42,34 @@
 
 @media screen and (max-width:480px) {
    
-    .a-left {
+    .a-desc {
+        margin-left: -7rem;
+        /* padding: 10px; */
         /* width: 100%; */
         /* height: 100%; */
     }
     .a-desc-left-wrapper {
         margin-top: 15rem;
-        margin-bottom: 5rem;
+        /* margin-bottom: 5rem; */
         /* margin-left: 1rem; */
     }
 
     .a-bio-title {
-        text-align: center;
+        text-align: left;
     }
 
 
     .a-bio-short {
-        /* width: 100%; */
-        height: 50%;
+        width: 250px;
+        /* height: 30%; */
         font-size: 14px;
-        text-align: center;
-        justify-content: center;
+        text-align: left;
+        justify-content: left;
+        line-height: 20pt;
     }
 
     .cv-btn {
-        align-self: center;
+        margin-top: 1rem;
+        align-self: left;
     }
 }

@@ -17,6 +17,9 @@ const ProjectItem = ({ img, link, title, desc }) => {
               />
             </a>
           </div>
+          <div className="pi-mobile-title">
+              {title}
+            </div>
         </div>
       </div>
       <div className="pi-right">

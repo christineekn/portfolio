@@ -124,13 +124,14 @@
         flex-direction: column;
         height: 100%;
         margin-top: 5rem;
+        margin-left: -7rem;
     }
 
     .i-left-wrapper {
         padding: 10px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        align-items: left;
+        justify-content:left;
+        text-align: left;
         height: 100%;
     }
 

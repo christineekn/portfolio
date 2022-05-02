@@ -48,16 +48,17 @@
     }
 
     .p-projects-title {
-        text-align: center;
+        text-align: left;
         justify-content: center;
     }
 
     .p-card-title {
-        text-align: center;
+        text-align: left;
     }
 
     .c-soon {
         font-size: 20px;
+        text-align: left;
     }
     
 }
