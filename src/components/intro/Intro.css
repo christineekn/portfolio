@@ -122,12 +122,13 @@
 @media screen and (max-width : 480px) {
     .i {
         flex-direction: column;
-        height: 100%;
-        margin-top: 5rem;
+        height: 50vh;
+        /* margin-top: 5rem; */
         margin-left: -10rem;
     }
 
     .i-left-wrapper {
+        margin-top: 15rem;
         padding: 10px;
         align-items: left;
         justify-content:left;
@@ -136,8 +137,9 @@
     }
 
     .i-intro, .i-intro-2{
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 400;
+        margin: 1rem 0rem;
     }
 
     .i-name {
