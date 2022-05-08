@@ -1,159 +1,157 @@
 .i {
-    display: flex;
-    height: 100vh;
-    margin-top: -3rem;
+  display: flex;
+  height: 100vh;
+  margin-top: -10rem;
 }
 
 .i-left {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .i-right {
-    flex: 1;
-    position: relative;
+  flex: 1;
+  position: relative;
 }
 
 .i-left-wrapper {
-    padding: 50px;
-    margin-left: 3rem;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
+  padding: 50px;
+  margin-left: 3rem;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
 }
 
-.i-intro, .i-intro-2{
-    font-size: 30px;
-    font-weight: 200;
+.i-intro,
+.i-intro-2 {
+  font-size: 30px;
+  font-weight: 200;
 }
 
 .i-name {
-    font-size: 70px;
-    font-weight: 300;
-    display: flex;
-    /* background-color: rgba(222, 160, 87, 0.4); */
-    align-items: center;
-    /* margin-top: -2rem;
+  font-size: 70px;
+  font-weight: 300;
+  display: flex;
+  /* background-color: rgba(222, 160, 87, 0.4); */
+  align-items: center;
+  /* margin-top: -2rem;
     margin-bottom: -2rem; */
 }
 
-
-
 .i-title {
-    height: 60px;
-    overflow: hidden;
+  height: 60px;
+  overflow: hidden;
 }
 
 .i-title-wrapper {
-    height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
 }
 
 @keyframes move {
-    33%{
-        transform: translateY(-50px);
-    }
-    66%{
-        transform: translateY(-100px);
-    }
-    100%{
-        transform: translateY(-150px);
-    }
+  33% {
+    transform: translateY(-50px);
+  }
+  66% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(-150px);
+  }
 }
 
 .i-title-item {
-    height: 50px;
-    font-size: 30px;
-    font-weight: 300; 
-    color: #A97155;
+  height: 50px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #a97155;
 }
 
-
-
 .i-scroll {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    left: 45rem;
-    bottom: 150px;
-    animation: moveArrow 1s alternate-reverse infinite;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 45rem;
+  bottom: 150px;
+  animation: moveArrow 1s alternate-reverse infinite;
 }
 
 @keyframes moveArrow {
-    from {
-        transform: translateY(-10px);
-    }
-    to {
-        transform: translateY(0);
-    }
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 
 .i-img {
-    width: 50%;
-    height: 50%;
-    object-fit: contain;
-    position: absolute;
-    /* margin: auto; */
-    top: 14rem;
-    left: 15rem;
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  position: absolute;
+  /* margin: auto; */
+  top: 14rem;
+  left: 15rem;
 
-    animation: transitionIn 1.5s ;
+  animation: transitionIn 1.5s;
 }
 
 @keyframes transitionIn {
-    from {
-        opacity: 0;
-        transform: translateX(100px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0)
-    }
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
-
 
 /* Responsive */
 
 /* Mobile */
-@media screen and (max-width : 480px) {
-    .i {
-        flex-direction: column;
-        height: 60vh;
-        /* margin-top: 5rem; */
-        margin-left: -10rem;
-    }
+@media screen and (max-width: 480px) {
+  .i {
+    flex-direction: column;
+    height: 70vh;
+    margin-top: 2rem;
+    margin-left: -8rem;
+  }
 
-    .i-left-wrapper {
-        margin-top: 15rem;
-        padding: 10px;
-        align-items: left;
-        justify-content:left;
-        text-align: left;
-        height: 100%;
-    }
-
-    .i-intro, .i-intro-2{
-        font-size: 20px;
-        font-weight: 400;
-        margin: 1rem 0rem;
-    }
-
-    .i-name {
-        font-size: 30px;
-        font-weight: 500;
-    }
-
-    .i-right {
-        display: none;
-    }
+  .i-left-wrapper {
+    margin-top: 15rem;
+    padding: 10px;
     
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    height: 100%;
+    /* line-height: 20pt; */
+  }
 
-    .i-scroll {
-        display: none;
-    }
+  .i-intro,
+  .i-intro-2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 10pt;
+    margin: 1rem 0rem;
 
+  }
+  .i-name {
+    line-height: 20pt;
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .i-right {
+    display: none;
+  }
+
+  .i-scroll {
+    display: none;
+  }
 }

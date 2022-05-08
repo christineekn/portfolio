@@ -65,7 +65,8 @@
         font-size: 20px;
         text-align: left;
         justify-content: left;
-        line-height: 25pt;
+        font-weight: 300;
+        line-height: 30pt;
     }
 
     .cv-btn {
